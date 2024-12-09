@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: shipping-service
+  name: prod-shipping-service
 spec:
   selector:
-    app: shipping
+    app: prod-shipping
   ports:
     - protocol: TCP
       port: 80           # Puerto externo al que se conecta
